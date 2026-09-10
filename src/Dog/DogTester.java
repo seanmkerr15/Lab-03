@@ -2,6 +2,8 @@
 // 09/08/26
 // Dog object test class
 package Dog;
+import java.util.Scanner;
+
 
 public class DogTester {
 
