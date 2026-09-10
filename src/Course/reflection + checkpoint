@@ -1,0 +1,21 @@
+Checkpoints:
+Q1: Printing an object with no toString() shows it's Dog@1b6d3586 which is an indeitiying number for the specific object because it wants to hide the memory address for security.
+
+Q2: Without putting anything into the fields the name of the dog would be printed as null, the age of the dog would be 0, and the breed of the dog would be null.
+
+Q3: Constructors allow you to control what the starting values are of declared variables.
+
+Q4: The printout didn't of system.out.print(); did not change much before using @Override toString() but it did make it more simplier to print out the text that the programmer wants printed.
+Meanwhile using @Override toString() changed a lot.
+
+Q5: Private fields are more secure because they cannot be access by anybody but using getters and setters allow users to modify and view what the programmer allows them to modify and view
+Example: public void setBreed(String setBreed) {
+            breed = setBreed;
+          }
+
+Reflection:
+
+Q4. We used @Override with toString(), @Override tells the compiler that we are overriding an existing method.
+to replace the default text with our own in order to reduce redundant code, make it easier to read, and to also make it simplier to print.
+
+Q5. The no-argument constructor used inputs within the constructor to determine the initial/unchanged values. The parameterized constructor relied on the input from the creation of Object named object1.
