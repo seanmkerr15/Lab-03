@@ -10,7 +10,8 @@ public class CourseTester {
 	public static void main(String[] args) {
 		Scanner scnr = new Scanner(System.in);
 		//Creates object Course named course1
-		Course course1 = new Course();	
+		//Accesses parameterized constructor
+		Course course1 = new Course("Test_Unknown", Grade.NOT_ASSIGNED, "Test_Unknown");
 		System.out.println("\nDefaults for Course1 fields (before any assignment):");
 		//print default values
 		System.out.println(course1.toString());

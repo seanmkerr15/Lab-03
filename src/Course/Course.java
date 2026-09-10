@@ -6,6 +6,13 @@ public class Course {
 	private Grade grade;
 	private String classroom;
 	
+	//parameterized constructor
+	public Course(String name, Grade grade, String classroom) {
+	    this.name = name;
+	    this.grade = grade;
+	    this.classroom = classroom;
+	}
+	//no-argument constructor
 	public Course() {
 		this.name = "Unknown";
 		this.grade = Grade.NOT_ASSIGNED;
